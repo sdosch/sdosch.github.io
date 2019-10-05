@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+/>
 <html lang="en">
   {% include head.html %}
   <body>
-      {% include header.html %}
-      <section id="about">
-        {% include about.html %}
+    {% include header.html %}
+    <section id="about">
+      {% include about.html %}
+    </section>
+    <section id="history">
+      {% include history.html %}
+    </section>
+    <section id="certificates">
+        {% include certificates.html %}
       </section>
-      <section id="history">
-          {% include history.html %}
-        </section>
-        {{ content }}
-      {% include footer.html %}
+    {{ content }}
+    {% include footer.html %}
   </body>
 </html>
