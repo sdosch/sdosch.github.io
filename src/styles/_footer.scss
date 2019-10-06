@@ -23,24 +23,17 @@
   margin: 0 auto;
   width: 80vw;
   transform: translate(-50%, -50%);
-  .site-title {
-    font-size: 10vw;
-    display: block;
-    line-height: 1;
-    color: #fff;
-    white-space: nowrap;
-    @media only screen and (min-width: $cut) {
-      margin: 0;
-      font-size: 76px;
-    }
-  }
+
   .site-description,
   p {
     font-size: 8vw;
     display: block;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #fff;
     margin-bottom: 40px;
+    span {
+      display: inline-block;
+    }
     @media only screen and (min-width: $cut) {
       font-size: 50px;
     }
@@ -49,6 +42,7 @@
     font-family: "Roboto Slab", sans-serif;
     font-size: 4vw;
     margin-bottom: 20px;
+    line-height: 1.5;
     @media only screen and (min-width: $cut) {
       font-size: 20px;
     }
