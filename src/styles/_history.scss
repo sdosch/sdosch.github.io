@@ -62,31 +62,22 @@
   }
   .tech-list {
     list-style-type: none;
-    margin: 0;
+    margin: 20px 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
     li {
-      padding: 2px 1px;
+      display: inline-block;
       font-size: 1rem;
       margin: 2px;
-      a {
-        font-size: 1rem;
-        color: $light;
-        padding: 3px 12px;
-        background-color: $purple;
-        border-radius: 5px;
-        text-decoration: none;
-        margin: 0;
-        transition: 0.25s;
-        &:hover {
-          color: $purple;
-          background-color: white;
-        }
-      }
+      color: $light;
+      padding: 2px 12px;
+      background-color: $purple;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.25s;
     }
   }
   @media only screen and (min-width: $cut) {
